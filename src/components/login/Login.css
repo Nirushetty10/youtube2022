@@ -1,0 +1,32 @@
+.login-container {
+    width: 35rem;
+    height: 25rem;
+    border: 1px solid black;
+    position: absolute;
+    margin: 10rem auto;
+    background-color: #fff;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container {
+    width: 65%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.loginInput {
+    width: 60%;
+    outline: none;
+}
+.loginButton {
+    margin: 2rem 1rem;
+    width: 10rem;
+    height: 2rem;
+    background-color: #003580;
+    color: #fff;
+    border: none;
+}
